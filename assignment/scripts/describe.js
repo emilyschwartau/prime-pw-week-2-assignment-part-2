@@ -1,5 +1,5 @@
 // WHAT IS THIS EVEN DOING?
-.
+
 // For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening.
 // They are in isolation -- variables in one question do not affect other questions.
 // Describe the code as it would be run, and make sure you give us the console.log's value at the end.
@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We make a variable called name and set it to Dane as a string.
+//Then we create a conditional scenario where if name is set to Mary we will console.log "Hi, Mary!".
+//Otherwise, if name is not set to Mary we will console.log "How do you do?".
+//Because name is NOT set to Mary we will console.log "How do you do?".
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+//We make a variable called secret, and don't yet set it to anything.
+//We make a variable called code and set it to 123 as a number
+//We make a conditional scenario where if code is equal to 123, then secret will be set as super, and code will be set as code * 2.
+//Code IS equal to 123, so when we console.log secret it will be set to super.
 
 //CODE
 /*
