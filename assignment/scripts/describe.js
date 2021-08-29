@@ -70,10 +70,22 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+//We make a variable called isStudent and set it to true as a boolean.
+//We make a variable called age and set it to 34 as a number.
+//We make a variable called zip and set it to 55407 as a number.
+//We make a conditional scenario where if isStudent is equal to true AND zip is greather than 80000 then
+  // we would console.log "You're a student on the West Coast!",
+// Otherwise if either isStudent or zip doesn't fulfill the first conditional scenario, then we are presented with a second conditional scenario.
+// The second conditional scenario is if isStudent is false OR age is less than 30 then we would console.log
+  // "What are your hobbies?"
+//Otherwise, if either isStudent or age doesn't fulfill the second conditional scenario, then we are presented with a third conditional scenario.
+// the third conditional scenario is if isStudent is true then we would console.log "Welcome to Prime!".
+//Otherwise, if isStudent doesn't fulfill the third conditional scenario, then we would console.log "How about the weather?"
+// The set variables do not fulfill the first conditional scenario because zip is less than 80000.
+// We then move on to the second conditional scenario. The set variables do not fulfill the second conditional scenario because
+  // isStudent is NOT false, OR age is > 30
+// We then move on to the third conditional scenario. The set variables fulfill this conditional scenario because isStudent is true.
+//We will console.log "Welcome to Prime!"
 
 //CODE
 /*
@@ -130,10 +142,19 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX: colorOne is set to red, should be set to blue.
+// should be let colorOne = "blue";
 let colorOne = 'red';
+// FIX: colorTwo is set to blue, should be set to red.
+// should be let colorTwo = "red";
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX: forgot to add colorTwo into conditional scenario.
+// should be if (mix === true) {
+//colorOne = "purple";
+//colorTwo = "purple";
+//}
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -145,8 +166,12 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX: time should be a variable, not a constant
+// should be let time = 4;
 const time = 4;
 
+// FIX: conditional should be AND, not OR.
+// should be if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -158,11 +183,18 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+// FIX: minAge should be a variable, not a constant
+// should be let minAge = 21;
 const minAge = 21;
 
+// FIX: text implies that we should check if age >= minAge, not the other way around.
+// should be if (age >= minAge) {
 if(minAge <= age) {
+// FIX: console.log enter should be in the if clause, and console.log no entry should be in the else clause.
+// should be console.log ("enter");
   console.log('no entry');
 } else {
+// should be console.log ("no entry");
   console.log('enter');
 }
 */
